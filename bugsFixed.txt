@@ -1,0 +1,15 @@
+1.download button not rendering appropiately. Bug found in index.html.
+
+<a href="#" class="download btn" download="QRCode">
+
+the class was set to "download-btn". removed the dash and it rendered appropiately.
+
+
+2. row with color input and pixel size not rendering appropiately. Bug found in styles.css.
+
+.sizes 
+	width: 32.5%;
+
+    the width was using px instead of a percentage. removed px and inserted percentage instead.
+
+    
